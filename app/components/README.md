@@ -1,4 +1,4 @@
-# Components Directory Structure
+    # Components Directory Structure
 
 This directory contains all React components organized by their purpose and scope.
 

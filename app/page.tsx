@@ -1,7 +1,11 @@
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <h1>Bottari</h1>
+    <div className="bg-[var(--primary)] w-screen h-dvh flex items-center justify-center">
+      <div className="text-center space-y-4">
+        <h1 className="text-6xl font-extralight">Bottari</h1>
+        <p className="text-2xl font-light">Welcome to our cafe</p>
+        <p className="text-xl font-medium">Experience the finest coffee</p>
+      </div>
     </div>
   );
 }
