@@ -1,10 +1,14 @@
+import HomeVideos from "./components/ui/HomeVideos";
+import BottariInfo from "./components/layout/home/BottariInfo";
+import HomeDescription from "./components/layout/home/HomeDescription";
+
 export default function Home() {
   return (
-    <div className="bg-[var(--primary)] w-screen h-dvh flex items-center justify-center">
-      <div className="text-center space-y-4">
-        <h1 className="text-6xl font-extralight">Bottari</h1>
-        <p className="text-2xl font-light">Welcome to our cafe</p>
-        <p className="text-xl font-medium">Experience the finest coffee</p>
+    <div className="bg-[var(--primary)] w-screen h-dvh relative">
+      <HomeVideos />
+      <div className="absolute inset-0 flex items-center justify-center z-10">
+        <BottariInfo />
+        <HomeDescription />
       </div>
     </div>
   );
