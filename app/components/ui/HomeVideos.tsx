@@ -2,7 +2,7 @@ import React from "react";
 
 const HomeVideos = () => {
   return (
-    <div className="absolute top-4 inset-0 w-full h-dvh flex">
+    <div className="absolute top-14 inset-0 w-full h-dvh flex">
       <video
         src="/videos/1.mp4"
         muted

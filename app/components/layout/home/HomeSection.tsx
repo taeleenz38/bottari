@@ -4,7 +4,7 @@ import BottariInfo from "./BottariInfo";
 
 const HomeSection = () => {
   return (
-    <div className="bg-[var(--primary)] w-screen h-dvh relative">
+    <div className="bg-[var(--primary)] w-full h-dvh relative">
       <HomeVideos />
       <div className="absolute inset-0 flex items-center justify-center z-10">
         <BottariInfo />
