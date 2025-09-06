@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HomeDescription = () => {
   return (
-    <div className="w-5/6 flex justify-between mx-auto py-24">
+    <div className="w-5/6 flex justify-between mx-auto pb-20">
       <div className="w-1/2 flex flex-col gap-4">
         <h1>Bottari</h1>
         <p>

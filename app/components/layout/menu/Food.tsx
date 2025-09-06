@@ -2,7 +2,7 @@ import React from "react";
 
 const Food = () => {
   return (
-    <div className="w-1/5 flex flex-col gap-6 text-lg p-18">
+    <div className="w-1/4 flex flex-col gap-6 text-lg p-18">
       <h1 className="text-2xl font-medium">Food</h1>
       <p>
         <span className="font-medium">Chocodamia cookie</span> 6
