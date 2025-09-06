@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Tea = () => {
   return (
-    <div className="w-1/5 flex flex-col gap-6 text-lg p-18">
+    <div className="w-1/4 flex flex-col gap-6 text-lg p-18">
       <h1 className="text-2xl font-medium">Tea</h1>
       <div className="flex flex-col">
         <p>
@@ -46,7 +46,7 @@ const Tea = () => {
         <p className="text-sm">Nutty chocolatey aroma</p>
         <p className="text-sm">low caffeine</p>
       </div>
-      <div className="flex flex-col text-right mt-4">
+      {/* <div className="flex flex-col text-right mt-4">
         <p>
           <span className="font-medium">Earl grey iced peach tea</span> 7
         </p>
@@ -62,12 +62,12 @@ const Tea = () => {
         <p>
           <span className="font-medium">peppermint tea</span> 5
         </p>
-      </div>
-      <div className="flex flex-col text-left mt-4 text-sm">
+      </div> */}
+      {/* <div className="flex flex-col text-left mt-4 text-sm">
         <p>EXTRA SHOT + 0.5</p>
         <p>ALTERNATIVE MILK + 0.8</p>
         <p>ICE + 0.5</p>
-      </div>
+      </div> */}
     </div>
   );
 };
